@@ -1,0 +1,70 @@
+h1
+{
+	width: 1130px;
+	font-size: 48px;
+	border-bottom: 1px solid;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+#fonda
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 960px;
+	margin: auto;
+}
+
+.fonda
+{
+	margin: auto;
+	width: 460px;
+	text-align: center;
+}
+
+h2
+{
+	font-size: 28px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.texte
+{
+	width: 200px;
+	margin: auto;
+}
+
+@media screen and (max-width: 1024px)
+{
+	h1
+	{
+		width: 86%;
+		margin-bottom: 40px;
+		margin-top: 30px;
+	}
+	
+	#fonda
+	{
+		display: flex;
+		flex-wrap: wrap;
+		width: 86%;
+		margin: auto;
+	}
+	
+	.fonda
+	{
+		margin: 0 auto 40px;
+		text-align: center;
+	}
+	
+	h2
+	{
+		margin-top: 0;
+	}
+
+
+}

@@ -1,0 +1,629 @@
+/*
+MAIN
+*/
+
+.main
+{
+	margin: 10px auto 0;
+	position: relative;
+	width: 1182px;
+}
+
+.actus
+{
+	float: left;
+	min-height: 1700px;
+	position: relative;
+	width: 300px;
+	border: 1px solid #9dceff;
+}
+
+.actualites
+{
+	margin: 1px 0 0;
+	min-height: 25px;
+	padding: 30px 0 30px;
+	background: linear-gradient(180deg, #9dceff 0, #ffffff 100%);
+	color: #202020;
+	font-size: 24px;
+	text-align: center;
+}
+
+.article1234
+{
+	margin: 20px auto 0;
+	position: relative;
+	width: 280px;
+}
+
+[class *= "texttitre"]
+{
+	color: #0c558d;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 22px;
+	margin: -2px 0 0;
+}
+
+
+.suite234
+{
+	margin: 5px 9px -3px;
+	color: #0c558d;
+	font-weight: bold;
+	text-decoration: underline;
+	position: relative;
+	text-align: right;
+}
+
+.suite1
+{
+	margin: 11px 9px -3px;
+}
+
+.separation
+{
+	height: 1px;
+	margin: 25px auto 25px;
+	position: relative;
+	right: 3px;
+	width: 272px;
+	background: #e4e4e4;
+}
+
+.textc
+{
+	margin: 11px auto 0;
+	width: 277px;
+	line-height: 18px;
+}
+
+.center
+{
+	float: left;
+	margin: 27px 0 0 30px;
+	position: relative;
+	width: 529px;
+}
+
+.a-la-une
+{
+	margin: auto;
+	position: relative;
+	width: 506px;
+}
+
+.a-la-une-titre
+{
+	color: #0c558d;
+	font-size: 30px;
+}
+
+.a-la-une-texte
+{
+	margin: 22px 0 0;
+	width: 500px;
+}
+
+.a-la-une-texte > *
+{
+	margin: 4px 0 0;
+	font-size: 20px;
+	line-height: 1.2;
+	text-align: justify;
+}
+
+.alaunegras
+{
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.lirelasuite
+{
+	color: #0c558d;
+	font-weight: 700;
+	margin: -40px 0 0 340px;
+}
+
+.centersepare
+{
+	height: 1px;
+	margin: 15px auto 0;
+	position: relative;
+	right: 5.5px;
+	width: 500px;
+	background: #9a9a9a;
+}
+
+.qui-sommes-nous
+{
+	margin: 25px 0 0;
+	position: relative;
+	width: 506px;
+}
+
+.qui-sommes-nous-titre
+{
+	margin: 0 0 0 10px;
+	color: #0c558d;
+	font-size: 30px;
+}
+
+.qui-sommes-nous-texte
+{
+	left: 4.5px;
+	margin: 22px auto 0;
+	position: relative;
+	width: 500px;
+}
+
+.qui-sommes-nous-texte > *
+{
+	margin: 4px 0 0;
+	font-size: 20px;
+	line-height: 1.2;
+	text-align: justify;
+}
+
+.quigras
+{
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.fondateurs
+{
+	margin: 25px 0 0;
+	position: relative;
+	width: 506px;
+}
+.fondadiri
+{
+	margin: 0 0 0 10px;
+	color: #0c558d;
+	font-size: 30px;
+}
+
+.fondateurs-2
+{
+	margin: 0 auto 0;
+	position: relative;
+	right: 9.5px;
+	width: 480px;
+}
+
+.president
+{
+	margin: 32px 60px 0;
+	position: relative;
+	width: 480px;
+}
+
+.nicolas
+{
+	float: left;
+	position: relative;
+	width: 200px;
+	z-index: 4;
+}
+
+.photonicolas
+{
+	height: 381px;
+	width: 250px;
+	background: url(images/nicolas.png) no-repeat;
+}
+
+.textnicolas
+{
+	margin: 12px 0 0 35px;
+	font-size: 19px;
+	line-height: 1.2;
+	text-align: center;
+}
+
+.arnaud
+{
+	float: right;
+	position: relative;
+	width: 280px;
+	z-index: 1;
+}
+
+.photoarnaud
+{
+	margin-left: -30px;
+	height: 381px;
+	width: 250px;
+	background: url(images/arnaud.png) no-repeat;
+}
+
+.textarnaud
+{
+	margin: 12px 0 0 -85px;
+	font-size: 19px;
+	line-height: 1.2;
+	text-align: center;
+}
+
+.fondateur
+{
+	position: relative;
+	margin-top: 20px;
+}
+
+.fondateur > *
+{
+	float: left;
+}
+
+.fondateur > *:last-child
+{
+	margin-right: 0 !important;
+}
+
+.paul
+{
+	position: relative;
+	width: 152px;
+	margin-left: 20px;
+	z-index: 5;
+}
+
+.photopaul
+{
+	height: 381px;
+	width: 250px;
+	background: url(images/paul.png) no-repeat;
+}
+
+.textpaul
+{
+	margin: 12px 0 -10px 80px;
+	font-size: 19px;
+	line-height: 1.2;
+	text-align: center;
+	position: absolute;
+}
+
+.aurelien
+{
+	position: relative;
+	width: 152px;
+	margin-left: -30px;
+	z-index: 2;
+}
+
+.photoaurelien
+{
+	height: 381px;
+	width: 250px;
+	background: url(images/aurelien.png) no-repeat;
+}
+
+.textaurelien
+{
+	margin: 12px 0 -10px 65px;
+	font-size: 19px;
+	line-height: 1.2;
+	text-align: center;
+	position: absolute;
+}
+
+.adrien
+{
+	margin-left: 20px;
+	position: relative;
+	width: 152px;
+	z-index: 2;
+}
+
+.photoadrien
+{
+	height: 381px;
+	width: 250px;
+	background: url(images/adrien.png) no-repeat;
+}
+
+.textadrien
+{
+	margin: 12px 0 -10px 70px;
+	font-size: 19px;
+	line-height: 1.2;
+	text-align: center;
+	position: absolute;
+}
+
+.suitefonda
+{
+	left: 175px;
+	margin: 150px auto 0;
+	position: relative;
+	width: 170px;
+	color: #0c558d;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.2;
+	text-align: justify;
+}
+
+.grasfondateur
+{
+	font-size: 23px;
+	font-weight: 700;
+}
+
+.actus2
+{
+	float: right;
+	position: relative;
+	width: 300px;
+}
+
+.resultatsan
+{
+	min-height: 640px;
+	position: relative;
+	border: 1px solid #9dceff;
+	background: #ffffff;
+}
+
+.resultats-annuels-2015
+{
+	margin: 1px 0 0;
+	min-height: 25px;
+	padding: 30px 0 30px;
+	background: linear-gradient(180deg, #9dceff 0, #ffffff 100%);
+	color: #202020;
+	font-size: 24px;
+	text-align: center;
+}
+
+.resultats
+{
+	margin: 20px auto 0;
+	position: relative;
+	width: 280px;
+}
+
+.stats
+{
+	margin: 11px auto 0;
+	width: 277px;
+}
+
+.stats > *
+{
+	margin: 5px 0 0;
+	line-height: 18px;
+}
+
+.grasstats
+{
+	font-weight: 700;
+}
+
+.contact
+{
+	margin: 55px 0 0;
+	min-height: 435px;
+	position: relative;
+	border: 1px solid #9dceff;
+	background: #ffffff;
+}
+
+.contactez-nous
+{
+	margin: 1px 0 0;
+	min-height: 25px;
+	padding: 30px 0 30px;
+	background: linear-gradient(180deg, #9dceff 0, #ffffff 100%);
+	color: #202020;
+	font-size: 24px;
+	text-align: center;
+}
+
+.contact2
+{
+	width: 277px;
+	margin: 11px auto 0;
+}
+
+.groupe1
+{
+	position: relative;
+	width: 280px;
+	margin: 20px auto 0;
+}
+
+.typecontact
+{
+	margin: -2px 0 0 0;
+	color: #0c558d;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.donnecontact
+{
+	margin: 10px 10px 0;
+}
+
+.groupe2
+{
+	margin: 30px auto 0;
+	position: relative;
+	width: 280px;
+}
+
+.groupe3
+{
+	margin: 30px auto 0;
+	position: relative;
+	width: 280px;
+}
+
+.donnecontact > *
+{
+	margin: 5px 0 0;
+	line-height: 18px;
+}
+
+.ensavoirplus
+{
+	margin: 35px 40px 0 90px;
+	color: #0c558d;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.contact222
+{
+	margin: 55px 0 0;
+	min-height: 410px;
+	position: relative;
+	border: 1px solid #9dceff;
+	background: #ffffff;
+}
+
+#fondateursresp
+{
+	display: none;
+}
+
+@media screen and (max-width: 1024px)
+{
+	.gallery
+	{
+		display: none;
+	}
+	
+	.main
+	{
+		display: flex;
+		flex-direction: column;
+		width: 86%;
+	}
+	
+	.center
+	{
+		order: 1;
+	}
+	
+	.actus
+	{
+		order: 3;
+	}
+	
+	.actus2
+	{
+		order: 2;
+	}
+	
+	.center
+	{
+		width: 86%;
+		margin: auto;
+		text-align: center;
+	}
+	
+	.a-la-une, .a-la-une-titre, .a-la-une-texte, .lirelasuite, .suitel
+	{
+		width: 100%;
+		text-align: center;
+		margin: 20px auto;
+	}
+	
+	.qui-sommes-nous, .qui-sommes-nous-texte, .qui-sommes-nous-titre
+	{
+		width: 100%;
+		text-align: center;
+		margin: 20px auto;
+	}
+	
+	.centersepare
+	{
+		width: 100%;
+		position: static;
+	}
+	
+	.fondateurs
+	{
+		display: none;
+	}
+	
+	#fondateursresp
+	{
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		height: 1200px;
+	}
+	
+	#respfond1, #respfond2
+	{
+		display: flex;
+		flex-direction: row;
+		margin: 0 auto 30px;
+		width: 100%;
+		justify-content: center;
+
+	}
+	
+	#titrefondaresp
+	{
+		margin: 25px 0 30px;
+	}
+	
+	.resparnaud
+	{
+		margin-left: calc(100% - 410px);
+	}
+	
+	.respnicolas
+	{
+		z-index: 9;
+	}
+	
+	.resppaul
+	{
+		margin-left: calc(100% - 410px);
+		z-index: 9;
+	}
+	
+	.resparnaudtext
+	{
+		margin-left: 10%;
+	}
+	
+	.respaurelientext
+	{
+		margin-left: -10%;
+	}
+	
+	.actus2
+	{
+		margin: auto;
+	}
+	
+	.actus
+	{
+		margin: 60px auto;
+	}
+	
+	.suitefondaresp
+	{
+		margin: 10px 0 50px;
+		width: 170px;
+		color: #0c558d;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 1.2;
+	}
+	
+	
+	
+	
+}
+

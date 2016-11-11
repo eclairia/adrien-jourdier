@@ -1,0 +1,85 @@
+.main
+{
+	margin: 96px auto 0;
+	position: relative;
+	width: 1182px;
+}
+
+.blaise
+{
+	display: block;
+	margin: auto;
+	height: 410px;
+	width: 720px;
+}
+
+h1
+{
+	margin: 40px auto;
+	color: #3b668c;
+	font-size: 32px;
+	text-align: center;
+}
+
+.date
+{
+	margin: 25px auto;
+	font-size: 24px;
+	font-style: italic;
+	text-align: center;
+}
+
+.textearticle
+{
+	margin: 35px auto;
+	width: 620px;
+}
+
+.textearticle > *
+{
+	line-height: 1.2;
+	text-align: justify;
+}
+
+.auteurarticle
+{
+	margin: 52px 250px -2px 759px;
+	font-size: 24px;
+	text-align: right;
+	margin: 0 285px 0 0;
+}
+
+@media screen and (max-width: 1024px)
+{
+	.main
+	{
+		width: 100%;
+		margin: 0;
+		text-align: center;
+	}
+	
+	.blaise
+	{
+		width: calc(720px / 2);
+		height: calc(410px / 2);
+	}
+	
+	#textart
+	{
+		margin: auto;
+		text-align: center;
+	}
+	
+	.textearticle
+	{
+		width: 86%;
+		margin: auto;
+		text-align: center;
+	}
+	
+	.auteurarticle
+	{
+		margin: 10px auto;
+		text-align: center;
+	}
+}

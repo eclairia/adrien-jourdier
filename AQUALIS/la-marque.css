@@ -1,0 +1,235 @@
+
+
+#divmarquedescr
+{
+	text-align: center;
+	margin-top: 20px;
+	font-family: Roboto;
+}
+
+#divmarqueh2
+{
+	font-size: 1.4em;	
+}
+
+#divmarquep
+{
+	width: 800px;
+	height: 200px;
+	margin: auto;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+#produits
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#produit1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;	
+}
+
+#divmarqueimg1
+{
+	width: 330px;
+	height: 330px;
+	background-color: #e5c700;	
+}
+
+#produit1h2, #produit1p
+{
+	color: #e5c700;
+}
+
+#divmarqueimg2 img
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#produit2
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 40px;	
+}
+
+#divmarqueimg2
+{
+	width: 330px;
+	height: 330px;
+	background-color: #e74c30;
+}
+
+#divmarqueimg2 img
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#produit2h2, #produit2p
+{
+	color: #e74c30;
+}
+
+#produit3
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 40px;	
+}
+
+#divmarqueimg3
+{
+	width: 330px;
+	height: 330px;
+	background-color: #2abb60;
+}
+
+#divmarqueimg3 img
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#produit3h2, #produit3p
+{
+	color: #2abb60;
+}
+
+#produit4
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 40px;	
+}
+
+#divmarqueimg4
+{
+	width: 330px;
+	height: 330px;
+	background-color: #3498d0;
+}
+
+#divmarqueimg4 img
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#produit4h2, #produit4p
+{
+	color: #3498d0;
+}
+
+#produit5
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 40px;	
+}
+
+#divmarqueimg5
+{
+	width: 330px;
+	height: 330px;
+	background-color: #9b59b0;
+}
+
+#divmarqueimg5 img
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#produit5h2, #produit5p
+{
+	color: #9b59b0;
+}
+
+.divmarqueh2etp
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 600px;
+	height: 340px;
+	margin-right: 120px;	
+}
+
+.divmarquep
+{
+	margin-top: 20px;
+}
+
+h1
+{
+	width: 1130px;
+	font-size: 48px;
+	border-bottom: 1px solid;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	text-align: left;
+}
+
+@media screen and (max-width: 1024px)
+{
+	body
+	{
+		width: 100%;
+	}
+	
+	#mainvaleurs
+	{
+		width: 100%;
+		margin: 0;
+	}
+	
+	h1
+	{
+		width: 86%;
+		margin-bottom: 40px;
+	}
+	
+	#divmarquep
+	{
+		width: 86%;
+		margin: 0 auto 150px;
+	}
+	
+	#produits
+	{
+		width: 90%;
+		margin: auto;
+	}
+	
+	#produit1, #produit2, #produit3, #produit4, #produit5
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.divmarqueh2etp
+	{
+		width: 86%;
+		text-align: center;
+	}
+
+}

@@ -1,0 +1,58 @@
+#publier
+{
+	font-size: 32px;
+	text-align: center;
+}
+
+h1
+{
+	width: 1130px;
+	font-size: 48px;
+	border-bottom: 1px solid;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	text-align: left;
+}
+
+input, textarea
+{
+	border: 1px solid;
+	margin: 5px 0 20px 0;
+}
+
+input[type="text"], input[type="date"]
+{
+    font-size: 20px;
+	padding: 8px 10px 8px 10px;
+	text-align: center;
+}
+
+textarea[name="contenu"]
+{
+    font-size: 20px;
+	padding: 8px 10px 8px 10px;
+}
+
+#none
+{
+	display: none;
+}
+
+.logout
+{
+	padding: 5px;
+    top: 60px;
+    left: 44.5%;
+    position: absolute;
+}
+
+.logout input
+{
+	border: 1px solid;
+	width: 180px;
+	height: 30px;
+	padding: 0 15px 0 15px;
+	margin: 5px;
+}

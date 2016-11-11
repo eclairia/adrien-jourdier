@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body{
+	background-color: white;
+	color: black;
+	font-family: Roboto;
+}
+
+h1{
+	width: 1130px;
+	font-size: 48px;
+	border-bottom: 1px solid;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+
+form{
+	display: flex;
+	justify-content: center;
+}
+
+#entreprise{
+	width: 400px;
+	border-radius: 5%;
+	border: 1px solid black ;
+	padding: 10px;
+}
+
+#submit2{
+	width: 150px;
+	height: 30px;
+	background: linear-gradient(to right, #073050, #9DCEFF);
+	color: white;
+	font-size: 1.2em;
+	border: solid black 1px;
+	border-radius: 6%;
+	margin-top: 20px;
+}
+
+
+li a{
+	color: black;
+}
+
+table{
+	height: 400px;
+	width: 600px;
+}
+
+#entreprise h2{
+	color: #073050;
+	text-align: center;
+}
+
+table input{
+	width: 250px;
+	border-radius: 10%;
+	border: 3px solid #EDEDED;
+}
+
+textarea{
+	width: 250px;
+	border-radius: 10%;
+	border: 3px solid #EDEDED;
+}
+
+p iframe{
+	width: 1000px;
+}
+
+.required{
+	color: #073050;
+}
+
+#test{
+	display: flex;
+	flex-direction: row;
+}
+
+#map {
+	margin-top: 30px;
+}
+
+#contact p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+tr {
+	margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1024px)
+{
+	body
+	{
+		width: 100%;
+	}
+	
+	#map
+	{
+		display: none;
+	}
+	
+	h1
+	{
+		width: 86%;
+		margin-bottom: 40px;
+		letter-spacing: -0.6px;
+	}
+	
+	form
+	{
+		display: flex;
+		justify-content: flex-start;
+		width: 100%;
+	}
+	
+	#test
+	{
+		flex-direction: column;
+		display: flex;
+		width: 86%;
+	}
+	
+	table
+	{
+		margin: 20px auto;
+		width: 0px;
+	}
+	
+	#entreprise
+	{
+		margin: 20px auto;
+		width: 100%;
+	}
+	
+	
+	
+	
+	
+}

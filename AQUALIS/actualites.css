@@ -1,0 +1,162 @@
+/* -------------------Contenu-------------------*/
+
+body {
+	font-family: Roboto, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.groupe:before, .groupe:after {
+	content: "";
+	display: block;
+}
+
+.groupe:after {
+	clear: both;
+}
+
+
+#contenu {
+	margin: 50px auto;
+	width: 1180px;
+}
+
+/* -----------------Menu catégories----------------*/
+
+.menucategories {
+	width: 1130px;
+	font-size: 22px;
+	border-bottom: 1px solid;
+	border-top: 2px solid;
+	margin: auto;
+	padding: 5px 0 5px 0;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+	border-color: grey;
+	margin-bottom: -70px;
+}
+
+.menucategories p {
+	padding: 5px;
+	margin: 0 70px 0 70px;
+}
+
+
+/* -----------------Lignes d'articles----------------*/
+
+.ligne1 {
+	margin: 80px auto;
+	width: 1180px;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* --------------------Titre------------------*/
+
+.titre {
+	width: 1130px;
+	font-size: 48px;
+	border-bottom: 1px solid;
+	margin: auto;
+	padding-bottom: 5px;
+}
+
+/* -----------------Articles----------------*/
+
+.articles {
+	min-height: 435px;
+	margin: 30px 20px 0 20px;
+	width: 350px;
+	border: 1px solid #373737; 
+}
+
+.texte {
+	margin: 30px auto 0;
+	width: 262px;
+}
+
+.titre-article {
+	height: 36px;
+	margin: -2px 0 0;
+	font-size: 18px;
+	text-align: center;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.date {
+	margin: 22px 0 2px;
+	color: #737373;
+	font-size: 8.999997px;
+	text-align: center;
+}
+
+.texte-article {
+	margin: 20px auto ;
+	width: 260px;
+	line-height: 1.2;
+	text-align: justify;
+}
+
+.footer-article {
+	margin: 39px 0 ;
+
+}
+
+.auteur {
+	float: left;
+	margin: 0 140px 0px 0;
+	color: #0c558e;
+	font-size: 12px;
+}
+
+.lien-article {
+	float: left;
+	color: #0c558e;
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+/* -----------------Images----------------*/
+
+.image-1 {
+	height: 170px;
+    width: 352px;
+    margin: -1px -1px;
+}
+
+@media screen and (max-width: 1024px)
+{
+	#contenu
+	{
+		width: 100%;
+	}
+	
+	.titre
+	{
+		width: 86%;
+	}
+	
+	.menucategories
+	{
+		display: none;
+	}
+	
+	.ligne1
+	{
+		width: 86%;
+		margin: auto;
+		text-align: center;
+	}
+	
+	.articles
+	{
+		margin: 30px auto;
+	}
+	
+	
+	
+}

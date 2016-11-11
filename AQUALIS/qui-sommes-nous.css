@@ -1,0 +1,203 @@
+#mainvaleurs
+{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+#alldivquisommesnous
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#quisommesnousligne1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#quisommesnoussousp
+{
+	margin-left: 50px;
+}
+
+
+#quisommesnousligne2
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.quisommesnousp
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 600px;
+}
+
+img#drapeaufr
+{
+	width: 400px;
+	height: 400px;
+}
+
+#quisommesnoussousp2
+{
+	margin-right: 50px;
+}
+
+.divallimg
+{
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.divimg
+{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 40px;
+}
+
+#valeur1 img
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	border: 1px solid black;
+	border-radius: 100px;
+}
+
+#valeur2 img
+{
+	display: flex;
+	justify-content: center;	
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	border-radius: 100px;
+}
+
+#valeur3 img
+{
+	display: flex;
+	justify-content: center;	
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	border-radius: 100px;
+}
+
+.valeursstrong 
+{
+	display: flex;
+	justify-content: center;
+	width: 200px;
+	padding-top: 10px;
+}
+
+.valeursp
+{
+	text-align: center;
+	width: 200px;
+	padding-top: 10px;
+}
+
+.zoom 
+{ 
+	-webkit-transition: .3s ease-out; 
+}
+
+.zoom:hover 
+{ 
+	-moz-transform: scale(2);
+	-webkit-transform: scale(2);
+	-o-transform: scale(2);
+	transform: scale(1.1);
+	-ms-transform: scale(2);
+}
+h1{
+	width: 1130px;
+	font-size: 48px;
+	border-bottom: 1px solid;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1024px)
+{
+	body
+	{
+		width: 100%;
+	}
+	
+	#mainvaleurs
+	{
+		width: 100%;
+		margin: 0;
+	}
+	
+	h1
+	{
+		width: 86%;
+		margin-bottom: 40px;
+	}
+	
+	#quisommesnousligne1
+	{
+		display: flex;
+		flex-direction: column-reverse;
+		width: 100%;
+		text-align: justify;
+	}
+	
+	.quisommesnousp
+	{
+		width: 86%;
+		margin: auto;
+	}
+	
+	#quisommesnoussousp
+	{
+		margin: 0;
+	}
+	
+	.quisommesnousimg
+	{
+		display: none;
+	}
+	
+	#quisommesnoussousp2
+	{
+		text-align: justify;
+		margin: 20px auto 0;
+	}
+	
+	.divimg
+	{
+		flex-direction: column;
+		margin: auto;
+		text-align: center
+	}
+	
+	#valeur1, #valeur2, #valeur3
+	{
+		margin: auto;
+	}
+	
+	.valeursp
+	{
+		margin: 5px auto 30px;
+	}
+}

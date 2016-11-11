@@ -1,0 +1,69 @@
+h1
+{
+	width: 1130px;
+	font-size: 48px;
+	border-bottom: 1px solid;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	text-align: left;
+}
+
+#gestion a
+{
+	text-decoration: underline;
+}
+
+.titre
+{
+	font-size: 22px;
+	margin: 25px 0 15px 0;
+}
+
+#gestion
+{
+	margin: auto;
+	text-align: center;
+}
+
+.lien
+{
+	margin: 5px 0 5px 0;
+}
+
+#corps
+{
+	text-align: center;
+}
+
+#iden
+{
+	margin-bottom: 20px;
+}
+
+form input
+{
+	border: 1px solid;
+	width: 180px;
+	height: 30px;
+	padding: 0 15px 0 15px;
+	margin: 5px;
+}
+
+.logout
+{
+	padding: 5px;
+    top: 60px;
+    left: 44.5%;
+    position: absolute;
+}
+
+.logout input
+{
+	border: 1px solid;
+	width: 180px;
+	height: 30px;
+	padding: 0 15px 0 15px;
+	margin: 5px;
+}
