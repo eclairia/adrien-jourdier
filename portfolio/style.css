@@ -1,0 +1,372 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+body
+{
+	background-color: #CCD4D7;
+	font-family: Oswald;
+}
+
+header
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header img:first-child
+{
+	display: flex;
+	justify-content: center;
+	width: 300px;
+	height: 300px;
+}
+
+header form
+{
+	display: inline-block;
+	position: absolute;
+	top: 3%;
+	left: 65%;
+}
+
+header form select
+{
+	width: 120px;
+}
+
+header #aheader1
+{
+	display: flex;
+	justify-content: flex-end;
+	position: absolute;
+	top: 3%;
+	right: 13%;
+	text-decoration: none;
+	border: 1px solid black;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: black;
+}
+
+header #aheader1:hover
+{
+	color: white;
+	border: 2px solid grey;
+}
+
+header #aheader2
+{
+	display: flex;
+	justify-content: flex-end;
+	position: absolute;
+	top: 3%;
+	right: 4%;
+	text-decoration: none;
+	border: 1px solid black;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: black;
+}
+
+header #aheader2:hover
+{
+	color: white;
+	border: 2px solid grey;
+}	
+
+#ancreimg img
+{
+	background-image: url("ancre.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 2;
+    border-color: black;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+#redirection
+{
+	display: flex;
+	justify-content: center;
+}
+
+#lienredirection
+{
+	display: flex;
+	justify-content: center;
+	font-size: 3em;
+}
+
+div.qui
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;}
+
+}
+section p
+{
+	display: flex;
+	justify-content: center;
+	font-size: 3em;
+}	
+
+.qui a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.qui a:hover
+{
+	color: #4a4949;
+	text-decoration: underline;
+}
+
+#pqui
+{
+	padding-top:  -20px;
+	border: 2px black solid;
+	border-radius: 10px;
+	width: 500px;
+	text-align: center;
+	padding: 10px;
+}
+
+div.parcours
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.parcours a
+{
+	text-decoration: none;
+	color: black;
+} 
+
+
+.parcours a:hover
+{
+	color: #4a4949;
+	text-decoration: underline;
+}
+
+#pparcours
+{
+	border: 2px black solid;
+	width: 500px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+progress[value]::-webkit-progress-bar
+{
+  background-color: #eee;
+}
+
+.pourcentagecompetence
+{
+	text-align: center;
+}
+
+.pourcentagecompetence, h2
+{
+	text-align: center;
+}
+
+.pourcentagecompetence label 
+{
+	display: block;
+}
+
+.pourcentagecompetence progress 
+{
+	background-color: green;	
+	width: 460px;
+}
+
+.projets
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#h2messitesweb
+{
+	margin: auto;
+	margin-top: 20px;
+}
+
+.projets a
+{
+	width: 200px;
+	height: 200px;
+	background-color: pink;
+	color: white;
+	text-decoration: none;
+	margin: 20px;
+	font-size: 32px;
+	font-weight: 700;
+	display: flex;
+}
+.projets a:first-child
+{
+	background: url(dota2.jpeg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.projets a:nth-child(2)
+{
+	background: url(bestfaceever.JPG) no-repeat;
+	background-size: cover;
+	background-position: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.projets a:hover
+{
+	text-decoration: underline;
+}
+
+.projets a:nth-child(3)
+{
+	background: url(aqualis.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.projets a:nth-child(4)
+{
+	background: url(aqualis.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.projets2 a:hover
+{
+	text-decoration: underline;
+}
+
+#ancre
+{
+	position: absolute;
+	bottom: -750px;
+	right: 100px;
+}
+
+footer
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	position: relative;
+	bottom: 0;
+	padding-left: 20px;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	width: 100%;
+	height: 300px;
+}
+
+footer #form_blog
+{
+	padding-right: 100px;
+}
+
+footer #form_blog label
+{
+	color: white;
+}
+
+footer #form_blog input, textarea
+{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 300px;
+	color: black;
+}
+
+#inputcheckbox
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin: 0;
+	font-size: 0.8em;
+}
+
+#inputcheckbox label
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#inputcheckbox label:hover
+{
+	color: black;
+}
+
+#inputcheckbox input
+{
+	width: 20px !important;
+}
+
+ #form_contact label
+ {
+ 	display: flex;
+ 	justify-content: flex-end;
+ 	color: white;
+ }
+
+#form_contact input, textarea
+{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 300px;
+	height: 50px
+	color: black;
+}
+
+input#submitcontact
+{
+	width: 300px;
+ 	text-align: center;
+ 	color: black;
+ 	cursor: pointer;
+}
+
+#bodyjuridique
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#divjuridique
+{
+	width: 940px;
+	background-color: white;
+}
+
+#divjuridique h2, p
+{
+	text-align: center;
+	color: black;
+}

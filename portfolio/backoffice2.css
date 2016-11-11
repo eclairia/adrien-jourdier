@@ -1,0 +1,29 @@
+.alldivbo
+{
+	width: 100%;	
+}
+
+div.divbo1	
+{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.divbo1 a
+{
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 20px;
+}
+
+div.divbo2
+{
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+
+
+
+

@@ -1,0 +1,894 @@
+/* Responsive design */
+
+/* Responsive 1024px */
+
+@media screen and (max-width: 1024px)
+{
+	body
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		margin: auto;
+		background-color: #CCD4D7;
+		font-family: Oswald;
+	}
+
+	header
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		margin: auto;
+	}
+
+	header img
+	{
+		margin: auto;
+	}
+
+	header form
+	{
+		display: inline-block;
+		position: absolute;
+		top: 3%;
+		left: 66%;
+	}
+
+	header form select
+	{
+		width: 100px;
+	}
+
+	header #aheader1
+	{
+		display: flex;
+		justify-content: flex-end;
+		position: absolute;
+		top: 3%;
+		right: 12%;
+		width: 5%;
+		text-decoration: none;
+		border: 1px solid black;
+		padding-left: 30px;
+		padding-right: 30px;
+		color: black;
+	}
+
+	header #aheader1:hover
+	{
+		color: white;
+		border: 1px solid grey;
+	}
+
+	header #aheader2
+	{
+		display: flex;
+		justify-content: flex-end;
+		position: absolute;
+		top: 3%;
+		right: 0%;
+		width: 5%;
+		text-decoration: none;
+		border: 1px solid black;
+		padding-left: 30px;
+		padding-right: 30px;
+		color: black;
+	}
+
+	header #aheader2:hover
+	{
+		color: white;
+		border: 1px solid grey;
+	}	
+
+	main
+	{
+		margin: auto;
+	}
+
+	.h2qui, .qui, .h2parcours, .parcours
+	{
+		display: flex;
+		justify-content: center;
+		width: 350px;
+		margin: auto;
+	}
+
+	progress[value]::-webkit-progress-bar
+	{
+	  background-color: #eee;
+	}
+
+	.pourcentagecompetence
+	{
+		text-align: center;
+	}
+
+	.pourcentagecompetence, h2
+	{
+		text-align: center;
+	}
+
+	.pourcentagecompetence label 
+	{
+		display: block;
+	}
+
+	.pourcentagecompetence progress 
+	{
+		background-color: green;	
+		width: 350px;
+	}
+
+	.projets2
+	{
+		width: 150px;
+		margin: auto;
+	}
+
+	#h2messitesweb
+	{
+		margin: auto;
+		margin-top: 20px;
+	}
+
+	.projets img
+	{
+		width: 75px;
+		margin: auto;
+	}
+
+	.projets a
+	{
+		text-align: center;
+	}
+
+	.projets
+	{
+		display: flex;
+		flex-direction: column;
+		width: 150px;
+		margin: auto;
+	}
+
+	#ancre
+	{
+		display: none;
+	}
+
+	footer
+	{
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		position: relative;
+		bottom: 0;
+		padding-left: 20px;
+		margin: 0;
+		background-color: rgba(0, 0, 0, 0.8);
+		color: white;
+		width: 100%;
+		height: 350px;
+	}
+
+	footer #form_blog
+	{
+		display: none;
+	}
+
+	footer #form_blog label
+	{
+		display: none;
+	}
+
+	footer #form_blog input, textarea
+	{
+		display: none;
+	}
+
+	#inputcheckbox
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		margin: 0;
+		font-size: 0.8em;
+	}
+
+	#inputcheckbox label
+	{
+		text-decoration: underline;
+		cursor: pointer;
+	}
+
+	#inputcheckbox label:hover
+	{
+		color: black;
+	}
+
+	#inputcheckbox input
+	{
+		width: 20px !important;
+	}
+
+	#form_contact
+	{
+		margin: auto;
+	}
+
+	 #form_contact label
+	 {
+	 	display: flex;
+	 	justify-content: flex-start;
+	 	color: white;
+	 }
+
+	#form_contact input, textarea
+	{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		width: 300px;
+		height: 50px
+		color: black;
+	}
+
+	input#submitcontact
+	{
+		width: 300px;
+	 	text-align: center;
+	 	color: black;
+	 	cursor: pointer;
+	}
+
+	#bodyjuridique
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#divjuridique
+	{
+		width: 940px;
+		background-color: white;
+	}
+
+	#divjuridique h2, p
+	{
+		text-align: center;
+		color: black;
+	}		
+}
+
+/* Responsive à 980px */
+
+@media screen and (max-width: 980px)
+{
+	body
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		background-color: #CCD4D7;	
+		font-family: Oswald;		
+	}
+
+	header
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;	
+	}
+
+	header form
+	{
+		display: inline-block;
+		position: absolute;
+		top: 3%;
+		left: 67%;
+	}
+
+	header form select
+	{
+		width: 70px;
+	}
+
+	header #aheader1
+	{
+		display: flex;
+		justify-content: flex-end;
+		position: absolute;
+		top: 3%;
+		right: 13%;
+		text-decoration: none;
+		border: 1px solid black;
+		padding-left: 30px;
+		padding-right: 30px;
+		color: black;
+	}
+
+	header #aheader1:hover
+	{
+		color: white;
+		border: 1px solid grey;
+	}
+
+	header #aheader2
+	{
+		display: flex;
+		justify-content: flex-end;
+		position: absolute;
+		top: 3%;
+		right: 1%;
+		text-decoration: none;
+		border: 1px solid black;
+		padding-left: 20px;
+		padding-right: 20px;
+		color: black;
+	}
+
+	header #aheader2:hover
+	{
+		color: white;
+		border: 1px solid grey;
+	}
+	.projets2
+	{
+		width: 150px;
+		margin: auto;
+	}
+
+	#h2messitesweb
+	{
+		margin: auto;
+		margin-top: 20px;
+	}
+
+	.projets img
+	{
+		width: 75px;
+		margin: auto;
+	}
+
+	.projets a
+	{
+		text-align: center;
+	}
+
+	.projets
+	{
+		display: flex;
+		flex-direction: column;
+		width: 150px;
+		margin: auto;
+	}
+
+	#ancre
+	{
+		display: none;
+	}
+
+	footer
+	{
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		position: relative;
+		bottom: 0;
+		padding-left: 20px;
+		margin: 0;
+		background-color: rgba(0, 0, 0, 0.8);
+		color: white;
+		width: 100%;
+		height: 350px;
+	}
+
+	footer #form_blog
+	{
+		padding-right: 100px;
+	}
+
+	footer #form_blog label
+	{
+		color: white;
+	}
+
+	footer #form_blog input, textarea
+	{
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		width: 300px;
+		color: black;
+	}
+
+	#inputcheckbox
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		margin: 0;
+		font-size: 0.8em;
+	}
+
+	#inputcheckbox label
+	{
+		text-decoration: underline;
+		cursor: pointer;
+	}
+
+	#inputcheckbox label:hover
+	{
+		color: black;
+	}
+
+	#inputcheckbox input
+	{
+		width: 20px !important;
+	}
+
+	 #form_contact label
+	 {
+	 	display: flex;
+	 	justify-content: flex-end;
+	 	color: white;
+	 }
+
+	#form_contact input, textarea
+	{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		width: 300px;
+		height: 50px
+		color: black;
+	}
+
+	input#submitcontact
+	{
+		width: 300px;
+	 	text-align: center;
+	 	color: black;
+	 	cursor: pointer;
+	}
+
+
+	#bodyjuridique
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#divjuridique
+	{
+		width: 940px;
+		background-color: white;
+	}
+
+	#divjuridique h2, p
+	{
+		text-align: center;
+		color: black;
+	}			
+}
+
+/* Responsive à 800px */
+
+@media screen and (max-width: 800px)
+{
+	body
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		margin: auto;
+		background-color: #CCD4D7;
+		font-family: Oswald;
+	}
+
+	header
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		margin: auto;
+	}
+
+	header form
+	{
+		display: none;
+	}	
+
+	header #aheader1
+	{
+		display: none;
+	}
+
+	header #aheader2
+	{
+		display: none;
+	}
+
+	main
+	{
+		margin: auto;
+	}
+
+	.h2qui, .qui, .h2parcours, .parcours
+	{
+		display: flex;
+		justify-content: center;
+		width: 350px;
+		margin: auto;
+	}
+
+	progress[value]::-webkit-progress-bar
+	{
+	  background-color: #eee;
+	}
+
+	.pourcentagecompetence
+	{
+		text-align: center;
+	}
+
+	.pourcentagecompetence, h2
+	{
+		text-align: center;
+	}
+
+	.pourcentagecompetence label 
+	{
+		display: block;
+	}
+
+	.pourcentagecompetence progress 
+	{
+		background-color: green;	
+		width: 350px;
+	}
+
+	.projets2
+	{
+		width: 150px;
+		margin: auto;
+	}
+
+	#h2messitesweb
+	{
+		margin: auto;
+		margin-top: 20px;
+	}
+
+	.projets img
+	{
+		width: 75px;
+		margin: auto;
+	}
+
+	.projets a
+	{
+		text-align: center;
+	}
+
+	.projets
+	{
+		display: flex;
+		flex-direction: column;
+		width: 150px;
+		margin: auto;
+	}
+
+	#ancre
+	{
+		display: none;
+	}
+
+	footer
+	{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+		bottom: 0;
+		padding-left: 20px;
+		margin: 0;
+		background-color: rgba(0, 0, 0, 0.8);
+		color: white;
+		width: 100%;
+		height: 350px;
+	}
+
+	footer #form_blog
+	{
+		display: none;
+	}
+
+	footer #form_blog label
+	{
+		display: none;
+	}
+
+	footer #form_blog input, textarea
+	{
+		display: none;
+	}
+
+	#inputcheckbox
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		margin: 0;
+		font-size: 0.8em;
+	}
+
+	#inputcheckbox label
+	{
+		text-decoration: underline;
+		cursor: pointer;
+	}
+
+	#inputcheckbox label:hover
+	{
+		color: black;
+	}
+
+	#inputcheckbox input
+	{
+		width: 20px !important;
+	}
+
+	#form_contact
+	{
+		margin: auto;
+	}
+
+	 #form_contact label
+	 {
+	 	display: flex;
+	 	justify-content: flex-start;
+	 	color: white;
+	 }
+
+	#form_contact input, textarea
+	{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		width: 300px;
+		height: 50px
+		color: black;
+	}
+
+	input#submitcontact
+	{
+		width: 300px;
+	 	text-align: center;
+	 	color: black;
+	 	cursor: pointer;
+	}
+
+	#bodyjuridique
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#divjuridique
+	{
+		width: 940px;
+		background-color: white;
+	}
+
+	#divjuridique h2, p
+	{
+		text-align: center;
+		color: black;
+	}		
+}
+
+/* Responsive à 500px */
+
+@media screen and (max-width: 500px)
+{
+	body
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 500px;
+		margin: auto;
+		background-color: #CCD4D7;
+		font-family: Oswald;
+	}
+
+	header
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		margin: auto;
+	}
+
+	header form
+	{
+		display: none;
+	}
+
+
+	header #aheader1
+	{
+		display: none;
+	}
+
+	header #aheader2
+	{
+		display: none;
+	}
+
+	main
+	{
+		margin: auto;
+	}
+
+	.h2qui, .qui, .h2parcours, .parcours
+	{
+		display: flex;
+		justify-content: center;
+		width: 350px;
+		margin: auto;
+	}
+
+	progress[value]::-webkit-progress-bar
+	{
+	  background-color: #eee;
+	}
+
+	.pourcentagecompetence
+	{
+		text-align: center;
+	}
+
+	.pourcentagecompetence, h2
+	{
+		text-align: center;
+	}
+
+	.pourcentagecompetence label 
+	{
+		display: block;
+	}
+
+	.pourcentagecompetence progress 
+	{
+		background-color: green;	
+		width: 350px;
+	}
+
+	#ancre
+	{
+		display: none;
+	}
+
+	footer
+	{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+		bottom: 0;
+		padding-left: 20px;
+		margin: 0;
+		background-color: rgba(0, 0, 0, 0.8);
+		color: white;
+		width: 100%;
+		height: 350px;
+	}
+
+	footer #form_blog
+	{
+		display: none;
+	}
+
+	footer #form_blog label
+	{
+		display: none;
+	}
+
+	footer #form_blog input, textarea
+	{
+		display: none;
+	}
+
+	#inputcheckbox
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		margin: 0;
+		font-size: 0.8em;
+	}
+
+	#inputcheckbox label
+	{
+		text-decoration: underline;
+		cursor: pointer;
+	}
+
+	#inputcheckbox label:hover
+	{
+		color: black;
+	}
+
+	#inputcheckbox input
+	{
+		width: 20px !important;
+	}
+
+	#form_contact
+	{
+		margin: auto;
+	}
+
+	 #form_contact label
+	 {
+	 	display: flex;
+	 	justify-content: flex-end;
+	 	color: white;
+	 }
+
+	#form_contact input, textarea
+	{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		width: 300px;
+		height: 50px
+		color: black;
+	}
+
+	input#submitcontact
+	{
+		width: 300px;
+	 	text-align: center;
+	 	color: black;
+	 	cursor: pointer;
+	}
+
+	#bodyjuridique
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#divjuridique
+	{
+		width: 940px;
+		background-color: white;
+	}
+
+	#divjuridique h2, p
+	{
+		text-align: center;
+		color: black;
+	}
+}
+
+

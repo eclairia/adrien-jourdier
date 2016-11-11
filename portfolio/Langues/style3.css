@@ -1,0 +1,37 @@
+html
+{
+	background-color: #CCD4D7;
+}
+
+.bodymove
+{
+	display: flex;
+	justify-content: center;
+}
+
+#h1blog, #h3blog
+{
+	text-align: center;
+	margin: 0;
+}
+
+.divblog 
+{
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 950px;
+}
+
+.divblog p
+{
+	text-align: center;
+	color: white;
+}
+
+.divblog p.pcommentaires
+{
+	background-color: white;
+	color: black;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 5px;
+}

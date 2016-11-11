@@ -1,0 +1,32 @@
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 250px;
+	right: 600px;
+}
+
+form
+{ 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+label
+{
+	width: 100px;
+	color: red;
+}
+
+input
+{
+	width: 250px;
+}
+
+input#submit
+{
+	width: 250px;
+}
