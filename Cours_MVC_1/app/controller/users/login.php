@@ -7,6 +7,8 @@
 
 	if(!isset($_POST["user_login"]))
 	{
+		define("APP_LANG", "fr");
+		define("PAGE_TITLE", "Login");
 		include_once("app/view/users/login.php");
 	}
 
@@ -32,16 +34,13 @@
 			if($retour["ID"] == 1)
 			{
 				$_SESSION["level"] = USER_ADMIN;
-				header("Location:?module=article&action=admin");
+				header("Location:?module=commentaire&action=admin");
 			}
 
 			else
 			{
 				$_SESSION["level"] = USER_LAMBDA;
 				header("Location:?");
-			}
-			
-			
-			
+			}	
 		}
 	}

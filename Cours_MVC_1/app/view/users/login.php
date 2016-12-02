@@ -4,7 +4,7 @@
 
 		<label>Login: </label><input type="text" name="user_login"><br /><br />
 		<label>Mot de passe: </label><input type="password" name="user_password"><br /><br />
-		<input type="checkbox" name=""><label>Connexion auto</label><br /><br />
+		<input type="checkbox"><label>Connexion auto</label><br /><br />
 		<input type="submit">
 
 	</form>

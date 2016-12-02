@@ -5,6 +5,7 @@
 	<div class="container div-content-article">
 
 		<h1><?= $articles[0]['post_title']; ?></h1>
+		<p id="category-author">Classé dans: <?= $articles[0]['cat_descr']; ?></p>
 		<p id="author-article">Rédigé par: <?= $articles[0]['user_login']; ?></p>
 		<p id="content-article"><?= $articles[0]['post_content']; ?></p>
 

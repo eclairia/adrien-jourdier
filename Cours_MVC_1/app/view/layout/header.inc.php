@@ -33,6 +33,7 @@
 
 					else
 					{ ?>
+						<li><a href="?module=commentaire&action=admin">Modération des commentaires</a></li>
 						<li id="liadmin">Bonjour admin</li>
 						<li><a href="?module=users&action=logout">Se déconnecter</a></li>
 					<?php } ?>

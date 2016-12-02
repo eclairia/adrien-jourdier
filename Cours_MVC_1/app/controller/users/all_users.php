@@ -8,8 +8,9 @@
 	$nb_users = counttable("blog_users");
 
 	//Appel du modèle pour obtenir la liste des utilisateurs
-	include_once('app/model/users/lire_users.php');
-	$users = lire_users();
+	$users = selecttable("blog_users", 
+						array("orderby" => "ID",
+								"order" => "DESC"));
 	//var_dump($users);
 
 	//Appel de la vue correspondante

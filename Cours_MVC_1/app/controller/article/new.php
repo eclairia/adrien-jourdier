@@ -2,12 +2,16 @@
 	
 	protection("user", "users", "login", USER_LAMBDA);
 
+
 	if(!isset($_POST['post_title']))
 	{
 		//Appel du modèle pour obtenir la liste des catégories
-		include_once("app/model/categories/lire_liste_categories.php");
-		$categories = lire_liste_categories();
+		$categories = selecttable("blog_categories", 
+						array("orderby" => "cat_descr",
+								"order" => "DESC"));
 
+		define("APP_LANG", "fr");
+		define("PAGE_TITLE", "Détail d'un article");
 		include_once("app/view/article/new.php");
 	}
 
@@ -20,12 +24,12 @@
 		if(!$retour)
 		{
 			//header("Location:?module=article&action=new&notif=nok");
-			location("action", "new", "notif=nok")
+			location("article", "new", "notif=nok");
 		}
 
 		else
 		{
 			//header("Location:?module=article&action=detail&id=". $retour . "&notif=ok");
-			location("action", "new", "id=" . $retour . "&notif=ok");
+			location("article", "detail", "id=" . $retour . "&notif=ok");
 		}
 	}

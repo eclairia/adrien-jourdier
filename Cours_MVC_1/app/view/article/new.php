@@ -6,20 +6,22 @@
         <tr>
           <td><label for="post_category">Catégorie</label></td>
           <td>
-            <select name="post_category">
 
-              <?php
-                foreach($categories as $category)
-                {
-                ?>
-                 
-                  <option value='<?= $category["cat_id"] ?>'><?= $category["cat_descr"] ?></option>;
+            <?php 
 
-              <?php
-                }
-              ?>
+              /*
+              *Paramètre 1: Name de la balise select
+              *Paramètre 2: Attribut class
+              *Paramètre 3: Attribut id
+              *Paramètre 4: Attend un tableau de données
+              *Paramètre 5: id de la colonne du tableau (partie de gauche)
+              *Paramètre 6: valeur de la colonne du tableau (partie de droite)
+              */
 
-            </select>
+              scrolllist("post_category", "dropdown", "listcat", $categories, "cat_id", "cat_descr"); 
+
+            ?>
+
           </td>
         </tr>
 
